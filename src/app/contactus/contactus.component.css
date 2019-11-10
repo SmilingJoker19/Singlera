@@ -1,0 +1,45 @@
+.section-heading {
+    width: 1240px;
+}
+
+.section-title {
+    font-family: "微软雅黑" ! important;
+}
+
+.row{
+    padding-bottom: 0;
+    padding-top:80px !important;
+}
+
+.subtitle {
+    font-family:"微软雅黑" ! important;
+    text-align: left;
+    font-size: 1.4em;
+    opacity: 0.75;
+    margin-bottom: 10px ! important;
+}
+
+.describe{
+    text-align: left;
+    font-family:"微软雅黑" ! important;
+    margin-bottom: 5px ! important;
+}
+
+.contacticon{
+    text-align: left;
+    float: left;
+    padding-top: 0.5em;
+    padding-right: 0.5em;
+}
+
+@media screen and (max-width: 768px) {
+    .column-2{
+        margin-top: 2em ! important;
+        margin-bottom: 2em ! important;
+    }
+
+}
+.describe2 {
+    padding-top: 5em !important;
+}
+

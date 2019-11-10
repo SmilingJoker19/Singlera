@@ -1,0 +1,23 @@
+#nav-main {
+    font-family: "微软雅黑" ! important;
+}
+
+@media screen and (max-width: 480px) {
+    .social-icons {
+        display: block !important;
+    }
+}
+#loginbutton {
+    font-family: "微软雅黑" !important;
+    font-size: 1.3em;
+    text-decoration: none;
+}
+
+#loginbutton:hover{
+    color:rgb(202, 155, 26);
+}
+@media screen and (min-width: 1025px) {
+    #loginaside {
+        padding-top: 25px !important;
+    }
+}

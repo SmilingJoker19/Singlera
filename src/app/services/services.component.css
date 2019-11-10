@@ -1,0 +1,42 @@
+#services, .section-title {
+    font-family: "微软雅黑" ! important;
+}
+
+#services a:hover{
+    border-color: rgb(0, 164, 228);
+}
+
+#services a {
+    border-color: black;
+    text-decoration: none;
+    font-family: "微软雅黑";
+}
+
+.describe22 {
+    display: none;
+}
+
+.describe21 {
+    display: block;
+}
+
+
+
+@media screen and (max-width: 480px) {
+    #testwords {
+        padding-top: 3em;
+    }
+    
+    .describe22 {
+        display: block;
+    }
+
+    .describe21 {
+        display: none;
+    }
+
+    #companyimg {
+        display: none;
+    }
+}
+

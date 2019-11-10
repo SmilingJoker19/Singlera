@@ -1,0 +1,55 @@
+
+  <header id="banner" class="scrollto clearfix" data-enllax-ratio=".5">
+    <div id="header" class="nav-collapse nav-solid">
+        <div class="row clearfix">
+            <div class="column-1">
+
+                <!--Logo-->
+                <div id="logo">
+                    <img src="../assets/images/logo.png" id="banner-logo" alt="" href="./home" />
+
+                    <img src="../assets/images/logo.png" id="navigation-logo" alt="" href="./home" />
+
+                </div>
+                <!--End of Logo-->
+           
+                <aside id="loginaside">
+                    <!--Social Icons in Header-->
+                    <ul class="">
+                        <li>
+                            <!-- <p>登录</p> -->
+                            <a target="" title="登录" href="/Login" id="loginbutton">
+                                登录
+                                <i class="fa fa-user-circle-o fa-1.5x"></i>
+                            </a>
+                        </li>
+                    </ul>
+                    <!--End of Social Icons in Header-->
+
+                </aside>
+                <!--Main Navigation-->
+                <nav id="nav-main">
+                    <ul>
+                        <li>
+                            <a routerLink="/Home" (click) =" getActiveTab('home')" [class.active] = "activetab === 'home'">主页</a>
+                        </li>
+                        <li>
+                            <a routerLink="/About" (click) = "getActiveTab('about')" [class.active] = "activetab === 'about'">关于</a>
+                        </li>
+                        <li>
+                            <a routerLink="/Product" (click) = "getActiveTab('product')" [class.active] = "activetab === 'product'">商品</a>
+                        </li>
+                        <li>
+                            <a routerLink="/Customer" (click) = "getActiveTab('customer')" [class.active] = "activetab === 'customer'">客服</a>
+                        </li>
+                    </ul>
+                </nav>
+                <!--End of Main Navigation-->
+                <div id="nav-trigger"><span></span></div>
+                <nav id="nav-mobile"></nav>
+
+            </div>
+        </div>
+    </div><!--End of Header-->
+
+</header>

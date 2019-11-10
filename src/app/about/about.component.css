@@ -1,0 +1,45 @@
+#about {
+    text-align: center;
+}
+
+.section-heading {
+    width: 1240px;
+}
+
+.section-title {
+    font-family: "微软雅黑" ! important;
+}
+
+#gallery {
+    padding-top: 0;
+}
+
+.row{
+    padding-bottom: 0;
+    padding-top:80px !important;
+}
+
+#testimonials blockquote p{
+    padding-left:3em;
+    padding-right: 3em;
+    text-align: left;
+    font-family: "微软雅黑";
+    color: rgb(0, 164, 228);
+    font-size: 0.9em;
+    line-height: 1.5em;
+}
+
+#testimonials blockquote footer{
+    padding-left:3em;
+    padding-right: 3em;
+    text-align: center;
+    font-family: "微软雅黑";
+    opacity: 0.8;
+    font-size: 1em;
+}
+
+.dot {
+    margin-bottom: 0 !important;
+    padding-top: 0.4em;
+    padding-right: 0.4em;
+}

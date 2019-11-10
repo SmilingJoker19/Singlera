@@ -1,0 +1,29 @@
+============================================================================================================
+This a web online store project based on Angular 6. This project is only the front-end part.
+Finished by Songlin Li on 11/09/2019. 
+============================================================================================================
+
+
+DEMO
+============================================================================================================
+
+###########Environment
+node v10.16.3
+Angular CLI: 6.2.9
+Angular: 6.0.3
+
+###########Step to Run(in windows system):
+
+1. Open Command Line in Administrator mode.
+2. Open the project in Command Line.
+3. Run "npm start" to run the project in local virtual server: localhost:4200. Use any web browser to open 
+the web page.
+
+
+###########Project Description:
+
+Version: V1.0.0
+
+This is the original version of the project. The web service contains 6 pages in all: home, about, product,
+contact us, login, sign up.
+ 

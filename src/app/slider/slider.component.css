@@ -1,0 +1,116 @@
+.slider img{
+    width: 100%;
+}
+
+.slider {
+    margin-top: 60px; 
+}
+
+#caption2 {
+    display: none;
+    transition: width 2s,background-color 1s;
+    color : white;
+    font-family:'Lato', sans-serif;
+    top: 5em;
+    right: 10em;
+    left: auto;
+    max-width: 35%; 
+}
+#caption2 p, #caption1 p, #caption3 p {
+    float: left;
+    margin-left: 0 !important;
+}
+
+#caption2 a, #caption1 a, #caption3 a {
+    display: inline-block !important;
+    float: left;
+    margin-left: 0 !important;
+}
+
+#caption1, #caption3 {
+    display: none;
+    transition: width 2s,background-color 1s;
+    color : white;
+    font-family:'Lato', sans-serif;
+    top: 5em;
+    left: 10em;
+    right: auto;
+    max-width: 35%; 
+}
+
+#caption1-mobile, #caption2-mobile, #caption3-mobile{
+    display: none;
+    top: 20%;
+    bottom: auto;
+    left: 35%;
+    right: auto;
+    text-align: center;
+
+}
+
+#caption1-mobile h3, #caption2-mobile h3, #caption3-mobile h3{
+    font-size: 2em !important;
+    text-align: center;
+}
+
+#caption1-mobile a, #caption2-mobile a, #caption3-mobile a{
+    font-size: 1em !important;
+    margin-left: 0 !important;
+}
+
+@media screen and (max-width: 480px){
+    #caption1-mobile, #caption2-mobile, #caption3-mobile{
+        display: block;
+    }
+}
+
+@media screen and (min-width: 600px) and (max-width: 800px){
+    #caption1-mobile, #caption2-mobile, #caption3-mobile{
+        font-size: 1.3em;
+        display: block;
+        left: 41%;
+    }
+}
+
+@media screen and (min-width: 1000px){
+    #caption1, #caption2, #caption3 {
+        display:block;
+    }
+}
+
+.carousel-caption h3 {
+    transition: width 2s,background-color 1s;
+    font-family: "微软雅黑" ! important;
+    float:left;
+    color: white;
+    font-size: 5em ! important;
+}
+
+.carousel-caption p, a {
+    font-family: "微软雅黑" ! important;
+    text-decoration: none;
+    float: left;
+    font-size: 1em;
+    color:white;
+    margin-left: 1em;
+    margin-top: 2em;
+}
+.carousel-caption a {
+    margin-top: 1.8em;
+}
+
+#caption2 p, #caption1 p, #caption3 p, #caption2 h3, #caption1 h3, #caption3 h3,
+#caption2 a, #caption1 a, #caption3 a, #caption1-mobile, #caption2-mobile,
+#caption3-mobile { 
+    animation: fadeInAnimation ease 3s; 
+    animation-iteration-count: 1; 
+    animation-fill-mode: forwards; 
+} 
+@keyframes fadeInAnimation { 
+    0% { 
+        opacity: 0; 
+    } 
+    100% { 
+        opacity: 1; 
+    } 
+} 
